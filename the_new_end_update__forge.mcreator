@@ -1,9 +1,43 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cheese",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewendupdateforge/block/CheeseBlock.java",
+          "src/main/resources/assets/the_new_end_update__forge/blockstates/cheese.json",
+          "src/main/resources/assets/the_new_end_update__forge/models/item/cheese.json",
+          "src/main/resources/assets/the_new_end_update__forge/models/block/cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseSlice",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thenewendupdateforge/item/CheeseSliceItem.java",
+          "src/main/resources/assets/the_new_end_update__forge/models/item/cheese_slice.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.the_new_end_update__forge.cheese": "Cheese",
+      "item.the_new_end_update__forge.cheese_slice": "Cheese Slice"
+    }
   },
   "foldersRoot": {
     "name": "~",
