@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_new_end_update__forge:block/new_end_biome_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_new_end_update__forge:block/new_end_biome_portal_ns"
+    }
+  }
+}
