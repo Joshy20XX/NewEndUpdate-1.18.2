@@ -8,7 +8,7 @@ version="0.0.1"
 displayName="The New End Update (1.18.2 Forge)"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="vze3h, MCreator"
+authors="vze3h & GibusRat"
 
 [[dependencies.the_new_end_update__forge]]
     modId="minecraft"
